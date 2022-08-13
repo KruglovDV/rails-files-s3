@@ -36,7 +36,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'bootsnap'
+  gem 'bootsnap', '>= 1.4.4'
 end
 
 group :development do
